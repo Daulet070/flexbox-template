@@ -1,0 +1,32 @@
+:root {
+    --clr-primary-300: #f3eed9;
+    --clr-primary-400: #824936;
+
+    --clr-neurtal-100: #fff;
+    --clr-neurtal-900: #222c2a;
+
+    --ff-prymary: 'Roboto', sans-seryf;
+    --ff-accent: 'Lobster', sans-seryf;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--ff-prymary);
+    font-weight: 400;
+    font-size: 1.3215rem;
+    line-height: 1.6;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
